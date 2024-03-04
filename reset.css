@@ -1,0 +1,49 @@
+/* Reset CSS */
+
+/* Establecer el box-sizing para todos los elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer márgenes y relleno en elementos de lista a cero */
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Reiniciar márgenes y relleno en elementos de encabezado */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer el tamaño de fuente base y el color del texto */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Establecer márgenes y relleno en elementos de formulario */
+input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer márgenes y relleno en elementos de tabla */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Establecer márgenes en elementos de imagen */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
